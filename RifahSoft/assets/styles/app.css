@@ -41,26 +41,22 @@
     background-color: var(--main-color) !important;
     color: white !important;
 }
+
 .name-logo{
     font-size: 4rem;
     font-family: 'Great Vibes', cursive;
     letter-spacing:3px;
     color: rgb(184, 98, 98);
 }
-/*
-@media (max-width: 960px) {
-    .main-navbar li > a{
-        border-radius: 0 !important;
-    }
-}*/
-
 
 .main-carousel .ratio{
     min-height: 300px;
 }
 
 
-  
+/*====================================================================================================================*/
+/* footer */
+/*====================================================================================================================*/
   footer li:hover {
       transform: translateY(-7px);
       transition:-1s;
@@ -71,8 +67,127 @@
     background-color: var(--main-color); 
     color: rgb(255, 255, 255);
     transform: translateX(-7px);
-    transition:-0.1s;
-
+    transition:-0.2s;
   }
+  /*====================================================================================================================*/
+/* About background */
+/*====================================================================================================================*/
+.bg-image{
+  width: 100%;  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+ a,
+        a:active,
+        a:focus {
+            color: #6f6f6f;
+            text-decoration: none;
+            transition-timing-function: ease-in-out;
+            -ms-transition-timing-function: ease-in-out;
+            -moz-transition-timing-function: ease-in-out;
+            -webkit-transition-timing-function: ease-in-out;
+            -o-transition-timing-function: ease-in-out;
+            transition-duration: .2s;
+            -ms-transition-duration: .2s;
+            -moz-transition-duration: .2s;
+            -webkit-transition-duration: .2s;
+            -o-transition-duration: .2s;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        #features {
+            background: #fff
+        }
+        
+        #features .icon {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border-radius: 4px;
+            text-align: center;
+            position: relative;
+            z-index: 1
+        }
+        
+        #features .content-left span {
+            float: right
+        }
+        
+        #features .content-left .text {
+            text-align: right
+        }
+        
+        #features .content-right span {
+            float: left
+        }
+        
+        #features .box-item {
+            box-shadow: 0 0 12px #f4f4f4;
+            padding: 15px;
+            line-height: 22px;
+            margin-top: 30px;
+            border-radius: 3px;
+            background-color: #fff;
+            -webkit-transition: all .3s ease-in-out;
+            -mox-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+            position: relative;
+            top: 0
+        }
+        
+        #features .box-item .icon {
+            text-align: center;
+            margin: 12px;
+            -webkit-transition: all .2s linear;
+            -moz-transition: all .2s linear;
+            -o-transition: all .2s linear;
+            transition: all .2s linear
+        }
+        
+        #features .box-item .icon i {
+            color: #008de2;
+            font-size: 30px;
+            -webkit-transition: all .2s linear;
+            -moz-transition: all .2s linear;
+            -o-transition: all .2s linear;
+            transition: all .2s linear
+        }
+        
+        #features .box-item .text h4 {
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            -webkit-transition: all .2s linear;
+            -moz-transition: all .2s linear;
+            -o-transition: all .2s linear;
+            transition: all .2s linear
+        }
+        
+        #features .box-item .text p {
+            font-size: 14px;
+            line-height: 26px
+        }
+        
+        #features .box-item:hover {
+            box-shadow: 0 10px 22px 10px rgba(27, 38, 49, .1)
+        }
+        
+        #features .box-item:hover h4 {
+            color: #008de2
+        }
+        
+        #features .show-box {
+            margin-top: 50px
+        }
+        
+        #features .show-box img {
+            width: 100%
+        }
 
