@@ -7,13 +7,13 @@
 
 @media (min-width: 960px) {
     body{
-        padding-top: 72px !important;
+        padding-top: 96px !important;
     }
 }
 
 @media (max-width: 959px) {
     body{
-        padding-top: 56px !important;
+        padding-top: 76px !important;
     }
 }
 
@@ -42,14 +42,25 @@
     color: white !important;
 }
 
-.name-logo{
+.logo{
     font-size: 4rem;
     font-family: 'Great Vibes', cursive;
     letter-spacing:3px;
     color: rgb(184, 98, 98);
+    line-height: normal;
 }
 
-.main-carousel .ratio{
+@media (max-width: 991px) {
+.logo{
+    font-size: 3rem;
+}
+}
+
+/*====================================================================================================================*/
+/* footer */
+/*====================================================================================================================*/
+
+.main-carousel .ratio, .page-header{
     min-height: 300px;
 }
 
@@ -57,18 +68,21 @@
 /*====================================================================================================================*/
 /* footer */
 /*====================================================================================================================*/
+
   footer li:hover {
       transform: translateY(-7px);
-      transition:-1s;
+      transition: 1s;
+      padding: .2rem ;
   }
+
   .hover:hover{
-    padding:.2rem ;
     border-radius: 3px;  
     background-color: var(--main-color); 
     color: rgb(255, 255, 255);
     transform: translateX(-7px);
     transition:-0.2s;
   }
+
   /*====================================================================================================================*/
 /* About background */
 /*====================================================================================================================*/
@@ -191,3 +205,6 @@
             width: 100%
         }
 
+
+
+        
